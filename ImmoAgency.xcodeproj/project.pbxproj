@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D41A62A2B022FA500E3246C /* ImmoAgencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A6292B022FA500E3246C /* ImmoAgencyApp.swift */; };
+		1D41A62C2B022FA500E3246C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A62B2B022FA500E3246C /* ContentView.swift */; };
+		1D41A62E2B022FA600E3246C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D41A62D2B022FA600E3246C /* Assets.xcassets */; };
+		1D41A6312B022FA600E3246C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D41A6302B022FA600E3246C /* Preview Assets.xcassets */; };
+		1D41A63B2B022FA600E3246C /* ImmoAgencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A63A2B022FA600E3246C /* ImmoAgencyTests.swift */; };
+		1D41A6452B022FA600E3246C /* ImmoAgencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A6442B022FA600E3246C /* ImmoAgencyUITests.swift */; };
+		1D41A6472B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D41A6372B022FA600E3246C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D41A61E2B022FA500E3246C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D41A6252B022FA500E3246C;
+			remoteInfo = ImmoAgency;
+		};
+		1D41A6412B022FA600E3246C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D41A61E2B022FA500E3246C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D41A6252B022FA500E3246C;
+			remoteInfo = ImmoAgency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D41A6262B022FA500E3246C /* ImmoAgency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmoAgency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41A6292B022FA500E3246C /* ImmoAgencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyApp.swift; sourceTree = "<group>"; };
+		1D41A62B2B022FA500E3246C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D41A62D2B022FA600E3246C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D41A6302B022FA600E3246C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D41A6362B022FA600E3246C /* ImmoAgencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmoAgencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41A63A2B022FA600E3246C /* ImmoAgencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyTests.swift; sourceTree = "<group>"; };
+		1D41A6402B022FA600E3246C /* ImmoAgencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmoAgencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41A6442B022FA600E3246C /* ImmoAgencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyUITests.swift; sourceTree = "<group>"; };
+		1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D41A6232B022FA500E3246C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A6332B022FA600E3246C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A63D2B022FA600E3246C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D41A61D2B022FA500E3246C = {
+			isa = PBXGroup;
+			children = (
+				1D41A6282B022FA500E3246C /* ImmoAgency */,
+				1D41A6392B022FA600E3246C /* ImmoAgencyTests */,
+				1D41A6432B022FA600E3246C /* ImmoAgencyUITests */,
+				1D41A6272B022FA500E3246C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D41A6272B022FA500E3246C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D41A6262B022FA500E3246C /* ImmoAgency.app */,
+				1D41A6362B022FA600E3246C /* ImmoAgencyTests.xctest */,
+				1D41A6402B022FA600E3246C /* ImmoAgencyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D41A6282B022FA500E3246C /* ImmoAgency */ = {
+			isa = PBXGroup;
+			children = (
+				1D41A6292B022FA500E3246C /* ImmoAgencyApp.swift */,
+				1D41A62B2B022FA500E3246C /* ContentView.swift */,
+				1D41A62D2B022FA600E3246C /* Assets.xcassets */,
+				1D41A62F2B022FA600E3246C /* Preview Content */,
+			);
+			path = ImmoAgency;
+			sourceTree = "<group>";
+		};
+		1D41A62F2B022FA600E3246C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D41A6302B022FA600E3246C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D41A6392B022FA600E3246C /* ImmoAgencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D41A63A2B022FA600E3246C /* ImmoAgencyTests.swift */,
+			);
+			path = ImmoAgencyTests;
+			sourceTree = "<group>";
+		};
+		1D41A6432B022FA600E3246C /* ImmoAgencyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D41A6442B022FA600E3246C /* ImmoAgencyUITests.swift */,
+				1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */,
+			);
+			path = ImmoAgencyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D41A6252B022FA500E3246C /* ImmoAgency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41A64A2B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgency" */;
+			buildPhases = (
+				1D41A6222B022FA500E3246C /* Sources */,
+				1D41A6232B022FA500E3246C /* Frameworks */,
+				1D41A6242B022FA500E3246C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmoAgency;
+			productName = ImmoAgency;
+			productReference = 1D41A6262B022FA500E3246C /* ImmoAgency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D41A6352B022FA600E3246C /* ImmoAgencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41A64D2B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgencyTests" */;
+			buildPhases = (
+				1D41A6322B022FA600E3246C /* Sources */,
+				1D41A6332B022FA600E3246C /* Frameworks */,
+				1D41A6342B022FA600E3246C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D41A6382B022FA600E3246C /* PBXTargetDependency */,
+			);
+			name = ImmoAgencyTests;
+			productName = ImmoAgencyTests;
+			productReference = 1D41A6362B022FA600E3246C /* ImmoAgencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D41A63F2B022FA600E3246C /* ImmoAgencyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41A6502B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgencyUITests" */;
+			buildPhases = (
+				1D41A63C2B022FA600E3246C /* Sources */,
+				1D41A63D2B022FA600E3246C /* Frameworks */,
+				1D41A63E2B022FA600E3246C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D41A6422B022FA600E3246C /* PBXTargetDependency */,
+			);
+			name = ImmoAgencyUITests;
+			productName = ImmoAgencyUITests;
+			productReference = 1D41A6402B022FA600E3246C /* ImmoAgencyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D41A61E2B022FA500E3246C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D41A6252B022FA500E3246C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1D41A6352B022FA600E3246C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1D41A6252B022FA500E3246C;
+					};
+					1D41A63F2B022FA600E3246C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1D41A6252B022FA500E3246C;
+					};
+				};
+			};
+			buildConfigurationList = 1D41A6212B022FA500E3246C /* Build configuration list for PBXProject "ImmoAgency" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D41A61D2B022FA500E3246C;
+			productRefGroup = 1D41A6272B022FA500E3246C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D41A6252B022FA500E3246C /* ImmoAgency */,
+				1D41A6352B022FA600E3246C /* ImmoAgencyTests */,
+				1D41A63F2B022FA600E3246C /* ImmoAgencyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D41A6242B022FA500E3246C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41A6312B022FA600E3246C /* Preview Assets.xcassets in Resources */,
+				1D41A62E2B022FA600E3246C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A6342B022FA600E3246C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A63E2B022FA600E3246C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D41A6222B022FA500E3246C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41A62C2B022FA500E3246C /* ContentView.swift in Sources */,
+				1D41A62A2B022FA500E3246C /* ImmoAgencyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A6322B022FA600E3246C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41A63B2B022FA600E3246C /* ImmoAgencyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41A63C2B022FA600E3246C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41A6452B022FA600E3246C /* ImmoAgencyUITests.swift in Sources */,
+				1D41A6472B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D41A6382B022FA600E3246C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D41A6252B022FA500E3246C /* ImmoAgency */;
+			targetProxy = 1D41A6372B022FA600E3246C /* PBXContainerItemProxy */;
+		};
+		1D41A6422B022FA600E3246C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D41A6252B022FA500E3246C /* ImmoAgency */;
+			targetProxy = 1D41A6412B022FA600E3246C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D41A6482B022FA600E3246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D41A6492B022FA600E3246C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D41A64B2B022FA600E3246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImmoAgency/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D41A64C2B022FA600E3246C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImmoAgency/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D41A64E2B022FA600E3246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmoAgency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImmoAgency";
+			};
+			name = Debug;
+		};
+		1D41A64F2B022FA600E3246C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmoAgency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImmoAgency";
+			};
+			name = Release;
+		};
+		1D41A6512B022FA600E3246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImmoAgency;
+			};
+			name = Debug;
+		};
+		1D41A6522B022FA600E3246C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahab.ImmoAgencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImmoAgency;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D41A6212B022FA500E3246C /* Build configuration list for PBXProject "ImmoAgency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41A6482B022FA600E3246C /* Debug */,
+				1D41A6492B022FA600E3246C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41A64A2B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41A64B2B022FA600E3246C /* Debug */,
+				1D41A64C2B022FA600E3246C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41A64D2B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41A64E2B022FA600E3246C /* Debug */,
+				1D41A64F2B022FA600E3246C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41A6502B022FA600E3246C /* Build configuration list for PBXNativeTarget "ImmoAgencyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41A6512B022FA600E3246C /* Debug */,
+				1D41A6522B022FA600E3246C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D41A61E2B022FA500E3246C /* Project object */;
+}
