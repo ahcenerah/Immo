@@ -14,6 +14,11 @@
 		1D41A63B2B022FA600E3246C /* ImmoAgencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A63A2B022FA600E3246C /* ImmoAgencyTests.swift */; };
 		1D41A6452B022FA600E3246C /* ImmoAgencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A6442B022FA600E3246C /* ImmoAgencyUITests.swift */; };
 		1D41A6472B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */; };
+		1DAE793F2B08E4EE0059DF66 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE793E2B08E4EE0059DF66 /* Property.swift */; };
+		1DAE79412B08E7440059DF66 /* PropertyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE79402B08E7440059DF66 /* PropertyRepository.swift */; };
+		1DAE79442B08EB670059DF66 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE79432B08EB670059DF66 /* PropertyView.swift */; };
+		1DAE79462B08F0D60059DF66 /* PropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE79452B08F0D60059DF66 /* PropertiesView.swift */; };
+		1DAE79482B08F50F0059DF66 /* PropertyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAE79472B08F50F0059DF66 /* PropertyDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		1D41A6402B022FA600E3246C /* ImmoAgencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmoAgencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D41A6442B022FA600E3246C /* ImmoAgencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyUITests.swift; sourceTree = "<group>"; };
 		1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoAgencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DAE793E2B08E4EE0059DF66 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		1DAE79402B08E7440059DF66 /* PropertyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyRepository.swift; sourceTree = "<group>"; };
+		1DAE79432B08EB670059DF66 /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		1DAE79452B08F0D60059DF66 /* PropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesView.swift; sourceTree = "<group>"; };
+		1DAE79472B08F50F0059DF66 /* PropertyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 		1D41A6282B022FA500E3246C /* ImmoAgency */ = {
 			isa = PBXGroup;
 			children = (
+				1DAE79422B08EB2B0059DF66 /* view */,
 				1D41A6292B022FA500E3246C /* ImmoAgencyApp.swift */,
 				1D41A62B2B022FA500E3246C /* ContentView.swift */,
+				1DAE793E2B08E4EE0059DF66 /* Property.swift */,
+				1DAE79402B08E7440059DF66 /* PropertyRepository.swift */,
 				1D41A62D2B022FA600E3246C /* Assets.xcassets */,
 				1D41A62F2B022FA600E3246C /* Preview Content */,
 			);
@@ -125,6 +138,16 @@
 				1D41A6462B022FA600E3246C /* ImmoAgencyUITestsLaunchTests.swift */,
 			);
 			path = ImmoAgencyUITests;
+			sourceTree = "<group>";
+		};
+		1DAE79422B08EB2B0059DF66 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1DAE79432B08EB670059DF66 /* PropertyView.swift */,
+				1DAE79452B08F0D60059DF66 /* PropertiesView.swift */,
+				1DAE79472B08F50F0059DF66 /* PropertyDetailView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D41A62C2B022FA500E3246C /* ContentView.swift in Sources */,
+				1DAE79442B08EB670059DF66 /* PropertyView.swift in Sources */,
+				1DAE79412B08E7440059DF66 /* PropertyRepository.swift in Sources */,
+				1DAE79462B08F0D60059DF66 /* PropertiesView.swift in Sources */,
 				1D41A62A2B022FA500E3246C /* ImmoAgencyApp.swift in Sources */,
+				1DAE793F2B08E4EE0059DF66 /* Property.swift in Sources */,
+				1DAE79482B08F50F0059DF66 /* PropertyDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +445,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImmoAgency/Preview Content\"";
+				DEVELOPMENT_TEAM = H334BC9A94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Immo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +476,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImmoAgency/Preview Content\"";
+				DEVELOPMENT_TEAM = H334BC9A94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Immo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

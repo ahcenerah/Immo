@@ -11,7 +11,7 @@ import SwiftUI
 struct ImmoAgencyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PropertiesView()
         }
     }
 }
