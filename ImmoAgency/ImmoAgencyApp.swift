@@ -11,7 +11,10 @@ import SwiftUI
 struct ImmoAgencyApp: App {
     var body: some Scene {
         WindowGroup {
-            PropertiesView()
+            NavigationStack
+            {
+                PropertiesView()
+            }
         }
     }
 }

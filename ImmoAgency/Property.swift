@@ -8,8 +8,18 @@
 import Foundation
 struct Property: Identifiable{
     var id : Int
-    var type : String
+    var type : PropertyType
     var rooms : Int
     var image: String
     var price: Int
+}
+enum PropertyType : CustomStringConvertible {
+    var description: String{
+        switch self {
+        case .appartment : return "Appartment"
+        case .house : return "House"
+        }
+    }
+    
+    case appartment , house
 }
